@@ -98,6 +98,72 @@
 ---
 ---
 ---
+
+## Descrição das Funções e Uso da Biblioteca (Português)
+
+### 1. Envio de SMS (Função `SendSMS`)
+```csharp
+public void SendSMS(SMSMessage message)
+```
+- **Descrição**: Envia uma mensagem SMS para o número de telefone especificado.
+- **Parâmetro**: `SMSMessage message` – Um objeto que contém o número de telefone de destino e o texto da mensagem.
+- **Funcionamento**: Usa a API do Twilio para enviar a mensagem e registra o sucesso ou erro nos logs.
+
+### 2. Coleta de Respostas (Função `CollectReceivedMessages`)
+```csharp
+public void CollectReceivedMessages()
+```
+- **Descrição**: Coleta as mensagens de resposta enviadas pelos destinatários para o número Twilio.
+- **Funcionamento**: Faz uma chamada à API do Twilio para buscar as mensagens recebidas e registra as respostas nos logs.
+
+### 3. Geração de Logs Detalhados (Função `FileLogger`)
+A biblioteca oferece uma classe de logger personalizada que gera logs detalhados para três tipos de eventos: **envios de SMS**, **erros**, e **respostas recebidas**. Os logs são organizados por data, hora e número de telefone, facilitando o acompanhamento.
+
+---
+
+## Descripción de Funciones y Uso de la Biblioteca (Español)
+
+### 1. Envío de SMS (Función `SendSMS`)
+```csharp
+public void SendSMS(SMSMessage message)
+```
+- **Descripción**: Envía un mensaje SMS al número de teléfono especificado.
+- **Parámetro**: `SMSMessage message` – Un objeto que contiene el número de teléfono de destino y el texto del mensaje.
+- **Funcionamiento**: Utiliza la API de Twilio para enviar el mensaje y registrar el éxito o error en los registros.
+
+### 2. Recogida de Respuestas (Función `CollectReceivedMessages`)
+```csharp
+public void CollectReceivedMessages()
+```
+- **Descripción**: Recoge los mensajes de respuesta enviados por los destinatarios al número de Twilio.
+- **Funcionamiento**: Realiza una llamada a la API de Twilio para buscar los mensajes recibidos y registra las respuestas en los registros.
+
+### 3. Generación de Registros Detallados (Función `FileLogger`)
+La biblioteca ofrece una clase personalizada de logger que genera registros detallados para tres tipos de eventos: **envío de SMS**, **errores** y **respuestas recibidas**. Los registros están organizados por fecha, hora y número de teléfono, lo que facilita el seguimiento.
+
+---
+
+## Description of Functions and Library Usage (English)
+
+### 1. SMS Sending (Function `SendSMS`)
+```csharp
+public void SendSMS(SMSMessage message)
+```
+- **Description**: Sends an SMS message to the specified phone number.
+- **Parameter**: `SMSMessage message` – An object that contains the recipient's phone number and the message text.
+- **Functionality**: Uses the Twilio API to send the message and logs success or failure.
+
+### 2. Response Collection (Function `CollectReceivedMessages`)
+```csharp
+public void CollectReceivedMessages()
+```
+- **Description**: Collects response messages sent by recipients to the Twilio number.
+- **Functionality**: Calls the Twilio API to fetch received messages and logs the responses.
+
+### 3. Detailed Log Generation (Function `FileLogger`)
+The library offers a custom logger class that generates detailed logs for three event types: **SMS sent**, **errors**, and **received responses**. Logs are organized by date, time, and phone number for easy tracking.
+
+---
 ---
 
 
