@@ -1,0 +1,9 @@
+/SMSAppSolution/.vs
+/SMSAppSolution/SMS.ConsoleApp/bin
+/SMSAppSolution/SMS.ConsoleApp/obj
+/SMSAppSolution/SMS.Domain/bin
+/SMSAppSolution/SMS.Domain/obj
+/SMSAppSolution/SMS.Infrastructure/bin
+/SMSAppSolution/SMS.Infrastructure/obj
+/SMSAppSolution/SMS.Tests/bin
+/SMSAppSolution/SMS.Tests/obj
