@@ -1,0 +1,23 @@
+{
+  "Twilio": {
+    "AccountSid": "your_account_sid",
+    "AuthToken": "your_auth_token",
+    "FromPhoneNumber": "+123456789"
+  },
+  "Schedule": {
+    "StartTime": "07:00",
+    "EndTime": "19:00",
+    "RetryCount": 3
+  },
+  "Messages": [
+    {
+      "PhoneNumber": "+5511999999999",
+      "Texts": [
+        "Seu rastreador está ativado!",
+        "Verifique a bateria do rastreador"
+      ]
+    }
+  ]
+}
+
+
